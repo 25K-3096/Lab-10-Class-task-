@@ -6,10 +6,10 @@ int main(){
 	strcpy(word[2],"Watermelon");
 	for(i=0;i<4;i++){
 		printf("%s\n",word[i]);
+		printf("%d\n",strlen(word[i]));
 		for(j=0;word[i][j]!='\0';j++){
 			printf(" %c\n",word[i][j]);
 		}
 	}
 	return 0;
 }
-
